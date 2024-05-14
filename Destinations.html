@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Creating the Container for Device View -->
     <div class="container">
         <h1>Book a Flight</h1>
+
+        <!-- Using Dropdown to help Pass select Airport Dep and Arrival -->
         <form action="#">
             <label for="from">From</label>
             <select id="from" name="from">
@@ -23,6 +26,28 @@
 
                     </optgroup>
                 </select>
+
+                <!-- Date and Calender Selection  -->
+
+                <label for="Select Departure-Date">Departure-Date</label>
+                <input type="date" id="Departure-Date" name="Departure-Date">
+
+                <label for="Select Return-Date">Return-Date</label>
+                <input type="date" id="Return-Date" name="Return-Date">
+
+                <label for="Passengers">Passengers</label>
+
+                <!-- DropDown and Option to aid in knowing how many pass are on board -->
+                <select name="Passengers" id="Passengers">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+
+                <input type="Done" value = "Search Flights">
         </form>
     </div>
 </body>
