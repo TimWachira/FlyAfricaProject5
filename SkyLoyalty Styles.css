@@ -83,4 +83,24 @@ li{
 color: #ff6600;
 }
 
+/* Style for join section */
+.join-section {
+    text-align: center;
+}
+
+.join-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.join-button:hover {
+    background-color: #e55d00;
+}
+
 
