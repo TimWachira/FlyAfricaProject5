@@ -11,9 +11,18 @@
         <h1>Book a Flight</h1>
         <form action="#">
             <label for="from">From</label>
-            <select name="from" id="from">
-                
-            </select>
+            <select id="from" name="from">
+                <option value=""disabled selected>Select Departure City</option>
+                option value="Nairobi">Jomo Kenyatta Int'l Airport (NBO)</option>
+                <optgroup label="Europe">
+                    <option value="LHR">London Heathrow Airport (LHR)</option>
+                    <option value="CDG">Paris Charles de Gaulle Airport (CDG)</option>
+                    <option value="FRA">Frankfurt Airport (FRA)</option>
+                    <option value="BRU">Brussels Airport (BRU)</option>
+                    <option value="BER">Berlin Bradenburg Airport (BER)</option>
+
+                    </optgroup>
+                </select>
         </form>
     </div>
 </body>
