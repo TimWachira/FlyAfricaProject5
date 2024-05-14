@@ -54,3 +54,33 @@ p{
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
+/* Style for Program overview Section */
+.overview-section{
+    margin-bottom: 30px;
+}
+
+/* Style for benefits section */
+.benefits-section{
+    color: #ff6600;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+/* Style for tiers section */
+.tiers-section{
+    margin-bottom: 30px;
+}
+
+.tiers-section h2{
+color: #ff6600;
+}
+
+
