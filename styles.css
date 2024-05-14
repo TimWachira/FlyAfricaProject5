@@ -128,4 +128,41 @@ body{
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
+
+
+
+/*          SKYLOYALTY PAGE STYLES         */
+body{
+    background-image: url(images/Loyalty\ Rewards.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for Device View */
+.container{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
   
