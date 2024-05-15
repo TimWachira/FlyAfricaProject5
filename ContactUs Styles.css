@@ -58,3 +58,30 @@ input[type = "submit"]{
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
+input[type = "submit"]:hover{
+    background-color: #e55d00;
+}
+
+/* Navigation List Styling */
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
