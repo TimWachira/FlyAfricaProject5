@@ -45,3 +45,16 @@ border: 1px solid #ccc;
 border-radius: 5px;
 box-sizing: border-box;
 }
+
+/* Input Area for Submit Styling */
+input[type = "submit"]{
+    width: 100%;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
