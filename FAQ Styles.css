@@ -46,3 +46,13 @@ h1{
     display: block;
 }
 
+/* + & - buttons */
+.faq-question::after{
+    content: "+";
+    float: right;
+}
+
+.faq-question.active::after{
+    content: "-";
+}
+
