@@ -39,3 +39,10 @@ h1{
     margin-bottom: 15px;
 }
 
+/*       USING JS TO CREATE COLLAPSIBLES (SPRINT 5)        */
+
+/* Show answer when Questions are clicked */
+.faq-question.active + .faq-answer{
+    display: block;
+}
+
