@@ -39,6 +39,14 @@ body{
     margin-bottom: 0;
 }
 
+/* Container for Device View */
+.container{
+        text-align: center;
+        padding: 100px 0; 
+        color: transparent; 
+    }
+
+    
 /* Navigation List Styling */
 nav {
     background-color: #333;
@@ -60,3 +68,5 @@ nav ul li a {
     color: transparent;
     text-decoration: none;
 }
+
+
