@@ -16,3 +16,25 @@ body{
     gap: 20px;
     padding: 20px;
 }
+
+.experience{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.experience img{
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.experience h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.experience p{
+    margin-bottom: 0;
+}
