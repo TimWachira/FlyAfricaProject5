@@ -32,3 +32,11 @@ nav ul li a{
     color: #fff;
     text-decoration: none;
 }
+
+/* Style for the Search Flight Button */
+.Done{
+margin:0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
