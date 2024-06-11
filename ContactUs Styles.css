@@ -66,8 +66,13 @@ input[type = "submit"]:hover{
 /* Navigation List Styling */
 nav{
     background-color: rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
     padding: 10px;
     text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 nav ul{

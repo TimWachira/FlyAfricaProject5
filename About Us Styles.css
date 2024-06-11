@@ -46,6 +46,7 @@ h1 {
 }
 
 p {
+    text-align: center;
     font-size: 16px;
     line-height: 1.6;
     color: #666;
