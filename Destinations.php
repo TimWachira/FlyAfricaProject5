@@ -11,13 +11,13 @@
     <!-- Navigation List -->
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About Us.html">About Us</a></li>
-            <li><a href="Destinations.html">Destinations</a></li>
-            <li><a href="SkyLoyalty.html">SkyLoyalty</a></li>
-            <li><a href="Experiences.html">Experiences</a></li>
-            <li><a href="Contact Us.html">Contact Us</a></li>
-            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="About Us.php">About Us</a></li>
+            <li><a href="Destinations.php">Destinations</a></li>
+            <li><a href="SkyLoyalty.php">SkyLoyalty</a></li>
+            <li><a href="Experiences.php">Experiences</a></li>
+            <li><a href="Contact Us.php">Contact Us</a></li>
+            <li><a href="faq.php">FAQ</a></li>
         </ul>
     </nav>
 
