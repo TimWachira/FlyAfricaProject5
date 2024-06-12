@@ -31,6 +31,9 @@
             <select id="from" name="from">
                 <option value=""disabled selected>Select Departure City</option>
                 option value="Nairobi">Jomo Kenyatta Int'l Airport (NBO)</option>
+                <optgroup label = "Africa">
+                    <option value="NBO">Jomo Kenyatta Int'l Airport</option>
+                </optgroup>
                 <optgroup label="Europe">
                     <option value="LHR">London Heathrow Airport (LHR)</option>
                     <option value="CDG">Paris Charles de Gaulle Airport (CDG)</option>
@@ -46,7 +49,7 @@
                 <optgroup label = "Africa">
                     <option value="NBO">Jomo Kenyatta Int'l Airport</option>
                 </optgroup>
-                
+
                 <optgroup label = "Europe">
                     <option value="MIL">Milano Int'l Airlport</option>
                     <option value="AMS">Amsterdam Schipol Airport</option>
