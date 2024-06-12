@@ -14,11 +14,11 @@
         <ul>
             <li><a href="index.php"></a></li>
             <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
+            <li><a href="About Us.php">About Us</a></li>
             <li><a href="destinations.php">Destinations</a></li>
             <li><a href="SkyLoyalty.php">SkyLoyalty</a></li>
             <li><a href="experiences.php">Experiences</a></li>
-            <li><a href="contact.php">Contact Us</a></li>
+            <li><a href="Contact Us.php">Contact Us</a></li>
             <li><a href="faq.php">FAQ</a></li>
         </ul>
         
@@ -62,7 +62,7 @@
             <p>Ready to start earning exclusive
                 benefits with us?
             </p>
-            <a href="Join SkyMiles.html" class="join-button">Join SkyMiles</a>
+            <a href="Join SkyMiles.php" class="join-button">Join SkyMiles</a>
         </div>
         
     </div>

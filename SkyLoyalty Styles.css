@@ -98,6 +98,9 @@ color: #ff6600;
     cursor: pointer;
     transition: background-color 0.3s;
 }
+.join-button>a{
+    text-decoration: none;
+}
 
 .join-button:hover {
     background-color: #e55d00;
