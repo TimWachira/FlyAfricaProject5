@@ -12,7 +12,7 @@
     <nav>
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
+            <li><a href="About Us.php">About Us</a></li>
             <li><a href="destinations.php">Destinations</a></li>
             <li><a href="SkyLoyalty.php">SkyLoyalty</a></li>
             <li><a href="Experiences.php">Experiences</a></li>
