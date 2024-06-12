@@ -1,24 +1,24 @@
-/*          ABOUT US  PAGE  STYLING                       */
+/* ABOUT US PAGE STYLING */
 
 /* Navigation Styling */
-nav{
+nav {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     text-align: center;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li{
+nav ul li {
     display: inline;
     margin-right: 10px;
 }
 
-nav ul li a{
+nav ul li a {
     color: #fff;
     text-decoration: none;
 }
@@ -56,7 +56,7 @@ p {
 /* Team Member Grid - Layout */
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
     padding: 20px;
 }
@@ -83,5 +83,3 @@ p {
 .team-member p {
     margin-bottom: 0;
 }
-
-
