@@ -45,6 +45,12 @@
         <p>Flight Purser B787-800</p>
         </div>
 
+        <div class = "team-member">
+        <img src="images/Maxwell Team Member.jpeg" alt="Avionics Engineer">
+        <h3>Maxwell Gatua</h3>
+        <p>Avionics Engineer - FlyAfrica</p>
+        </div>
+
         <div class="team-member">
         <img src="images/Chelah - Team Member.jpeg" alt="Chief Flight Operations">
         <h3>Grace Chelah</h3>
