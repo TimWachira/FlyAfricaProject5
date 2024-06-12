@@ -40,6 +40,21 @@
 
                     </optgroup>
                 </select>
+            <label for="to">To</label>
+            <select id="to" name="to">
+                <option value=""disabled selected>Select Arrival City</option>
+                <optgroup label = "Africa">
+                    <option value="NBO">Jomo Kenyatta Int'l Airport</option>
+                </optgroup>
+                
+                <optgroup label = "Europe">
+                    <option value="MIL">Milano Int'l Airlport</option>
+                    <option value="AMS">Amsterdam Schipol Airport</option>
+                    <option value="OYD">Chicago O'Hare Airport</option>
+                    <option value="YYD">Toronto Pearson Int'l Airport</option>
+
+                </optgroup>
+            </select>
 
                 <!-- Date and Calender Selection  -->
 
