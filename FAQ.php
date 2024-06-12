@@ -45,7 +45,7 @@
             <div class="faq-answer">If you're at the airport, 
                 please speak to a member of the FlyAfrica team
                 for help. 
-                If you've left the airport, please complete our <a href="">Lost Property Form</a>
+                If you've left the airport, please complete our <a href="Lost Property Form.php">Lost Property Form</a>
                  to report missing personal items
                 or cabin baggage and we'll respond promptly
             </div>
