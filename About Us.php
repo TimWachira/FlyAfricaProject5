@@ -42,7 +42,7 @@
         <div class = "team-member">
         <img src="images/Shigi Team Member.jpeg" alt="Flight Purser">
         <h3>Shigi Mukira</h3>
-        <p>Flight Purser B787-800</p>
+        <p>Flight Purser - B787-800</p>
         </div>
 
         <div class = "team-member">
@@ -64,6 +64,12 @@
         </div>
 
         <div class="team-member">
+        <img src="images/Nicole Ndila - Team Member.jpg" alt="Airline Reservations">
+        <h3>Nicole Ndila</h3>
+        <p>Air Hostess - A330-300 </p>
+        </div>
+
+        <div class="team-member">
         <img src="images/Trina Kinyua.jpg" alt="Airline Reservations">
         <h3>Trina Kinyua</h3>
         <p>Airline Reservations - FlyAfrica</p>
@@ -72,7 +78,7 @@
     </div>
         <!-- Overview of the Company -->
         <h2>Our Mission</h2>
-        <p>Commit to Safegiarding all customers,
+        <p>Commit to Safeguarding all customers,
             staff and assets through
             our rigorous safety training. 
         </p>
