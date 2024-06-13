@@ -29,9 +29,9 @@
         <form action="#">
             <label for="from">From</label>
             <select id="from" name="from">
-                <option value=""disabled selected>Select Departure City</option>
-                option value="Nairobi">Jomo Kenyatta Int'l Airport (NBO)</option>
-                <optgroup label = "Africa">
+                <option value="" disabled selected>Select Departure City</option>
+                <option value="Nairobi">Jomo Kenyatta Int'l Airport (NBO)</option>
+                <optgroup label="Africa">
                     <option value="NBO">Jomo Kenyatta Int'l Airport</option>
                 </optgroup>
                 <optgroup label="Europe">
@@ -40,50 +40,45 @@
                     <option value="FRA">Frankfurt Airport (FRA)</option>
                     <option value="BRU">Brussels Airport (BRU)</option>
                     <option value="BER">Berlin Bradenburg Airport (BER)</option>
-
-                    </optgroup>
-                </select>
+                </optgroup>
+            </select>
             <label for="to">To</label>
             <select id="to" name="to">
-                <option value=""disabled selected>Select Arrival City</option>
-                <optgroup label = "Africa">
+                <option value="" disabled selected>Select Arrival City</option>
+                <optgroup label="Africa">
                     <option value="NBO">Jomo Kenyatta Int'l Airport</option>
                 </optgroup>
-
-                <optgroup label = "Europe">
+                <optgroup label="Europe">
                     <option value="MIL">Milano Int'l Airlport</option>
                     <option value="AMS">Amsterdam Schipol Airport</option>
                     <option value="OYD">Chicago O'Hare Airport</option>
                     <option value="YYD">Toronto Pearson Int'l Airport</option>
-
                 </optgroup>
             </select>
 
-                <!-- Date and Calender Selection  -->
+            <!-- Date and Calendar Selection  -->
+            <label for="Departure-Date">Departure Date</label>
+            <input type="date" id="Departure-Date" name="Departure-Date">
 
-                <label for="Select Departure-Date">Departure-Date</label>
-                <input type="date" id="Departure-Date" name="Departure-Date">
+            <label for="Return-Date">Return Date</label>
+            <input type="date" id="Return-Date" name="Return-Date">
 
-                <label for="Select Return-Date">Return-Date</label>
-                <input type="date" id="Return-Date" name="Return-Date">
+            <label for="Passengers">Passengers</label>
 
-                <label for="Passengers">Passengers</label>
+            <!-- Dropdown for number of passengers -->
+            <select name="Passengers" id="Passengers">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
 
-                <!-- DropDown and Option to aid in knowing how many pass are on board -->
-                <select name="Passengers" id="Passengers">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                </select>
-
-               <br><br><button class="Done">Search Flights
-               </button>
-            
+            <!-- Search Flights button -->
+            <br><br>
+            <button type = 'submit'> <a href="Search Flights.php" class="button">Search Flights</a>
         </form>
     </div>
 </body>
-
 </html>
