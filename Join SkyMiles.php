@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Log In</title>
     <link rel="icon" href="images/icons8-airplane-48.png">
     <link rel="stylesheet" href="Join SkyMiles Styles.css">
 </head>
