@@ -1,5 +1,5 @@
 /*          DESTINATIONS PAGE STYLES         */
-body{
+body {
     background-image: url(images/Destination.jpg);
     background-size: cover;
     background-position: center;
@@ -11,32 +11,74 @@ body{
 }
 
 /* Navigation Styling */
-nav{
+nav {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     text-align: center;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li{
+nav ul li {
     display: inline;
     margin-right: 10px;
 }
 
-nav ul li a{
+nav ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-/* Style for the Search Flight Button */
-.Done{
-margin:0 auto;
-display: flex;
-align-items: center;
-justify-content: center;
+/* Style for the Container */
+.container {
+    width: 80%;
+    margin: 20px auto; /* Center the container horizontally with top margin */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;  /* Center contents inside container */
 }
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+select, input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the Search Flights Button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e65c00;
+}
+
