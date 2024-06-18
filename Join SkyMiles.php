@@ -37,7 +37,7 @@
             </div>
         </form>
         <div class="link">
-            <p>New to SkyMiles? <a href="Register SkyMiles.php">Register</a></p>
+            <p>New to SkyMiles? <a href="Register.php">Register</a></p>
         </div>
     </div>
 </body>
