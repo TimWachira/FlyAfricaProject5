@@ -41,7 +41,7 @@
 
         <div class = "team-member">
         <img src="images/Shigi Team Member.jpeg" alt="Flight Purser">
-        <h3>Shigi Mukira</h3>
+        <h3>Eddie Karira</h3>
         <p>Flight Purser - B787-800</p>
         </div>
 

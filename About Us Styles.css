@@ -32,6 +32,7 @@ body {
 
 /* Container Style for Device View */
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
@@ -58,9 +59,10 @@ p {
 /* Team Member Grid - Layout */
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
+    justify-items: center;
 }
 
 .team-member {
