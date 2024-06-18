@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="Register .css">
+    <link rel="stylesheet" href="Register Styles.css">
     <link rel="icon" href="images/icons8-airplane-48.png">
 </head>
 <body>
@@ -60,7 +60,7 @@
         if(mysqli_query($conn, $sql)){
             echo "<h3>Thank you for Registering
             Our Team will respond shortly to you via E-Mail.</h3>"; 
-            echo nl2br("Username: $user_name\nPassword: $password\nEmail: $email");
+            
         } else{
             echo "ERROR: Hush! Sorry $sql. " . mysqli_error($conn);
         }
