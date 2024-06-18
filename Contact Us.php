@@ -75,7 +75,7 @@
 
             // Provide feedback to the user
             echo "<p>Thankyou! Your Message has been sent successfully!</p>";
-        }
+        } 
         ?>
     </div>
 </body>
