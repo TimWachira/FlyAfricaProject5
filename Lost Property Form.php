@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fly Africa Lost Property Form</title>
+    <title>Lost Property Form</title>
     <link rel="stylesheet" href="Lost Property Form Styles.css">
     <link rel="icon" href="images/icons8-airplane-48.png">
 </head>
 <body>
-<!-- Navigation List -->
- <nav>
+    <!-- Navigation List -->
+    <nav>
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="About Us.php">About Us</a></li>
@@ -24,7 +24,7 @@
     <!-- Property Form -->
     <div class="container">
         <h2>Fly Africa Lost Property Form</h2>
-        <form action="/submit-lost-property" method="post">
+        <form action="Lost Property Form.php" method="post">
             <!-- Personal Information -->
             <div class="form-group">
                 <label for="full-name">Full Name</label>
@@ -75,5 +75,51 @@
             </div>
         </form>
     </div>
+
+    <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    // Retrieves form data
+    $full_name = $_POST['full-name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $flight_number = $_POST['flight-number'];
+    $departure_date = $_POST['departure-date'];
+    $departure_airport = $_POST['departure-airport'];
+    $arrival_airport = $_POST['arrival-airport'];
+    $item_description = $_POST['item-description'];
+    $last_seen = $_POST['last-seen'];
+
+    
+    $servername = "localhost"; 
+    $username = "root"; 
+    $password = "";
+    $dbname = "flights";
+
+    // Creates connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    // Checks connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    // Prepare and bind SQL statement
+    $stmt = $conn->prepare("INSERT INTO LostItems (full_name, email, phone, flight_number, departure_date, departure_airport, arrival_airport, item_description, last_seen) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt->bind_param("sssssssss", $full_name, $email, $phone, $flight_number, $departure_date, $departure_airport, $arrival_airport, $item_description, $last_seen);
+
+    // Executes SQL statement
+    if ($stmt->execute()) {
+        echo '<p style="color: green;">Lost item report submitted successfully!</p>';
+    } else {
+        echo '<p style="color: red;">Error: ' . $stmt->error . '</p>';
+    }
+
+    // Close statement and connection
+    $stmt->close();
+    $conn->close();
+}
+?>
+
 </body>
 </html>
