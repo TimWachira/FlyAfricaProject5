@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book a Flight - FlyAfrica</title>
+    <title>FlyAfrica - Book a Flight</title>
     <link rel="stylesheet" href="Destinations Styles.css">
     <link rel="icon" href="images/icons8-airplane-48.png">
 </head>
