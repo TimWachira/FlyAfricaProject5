@@ -58,14 +58,14 @@
         </div>
 
         <div class="team-member">
-        <img src="images/Nicole Team Member.jpg" alt="Air Hostess">
-        <h3>Nicole Cherop</h3>
+        <img src="images/Essy Team Mem.jpeg" alt="Air Hostess">
+        <h3>Esther Njoki</h3>
         <p>Air Hostess - A350-1000</p>
         </div>
 
         <div class="team-member">
-        <img src="images/Nicole Ndila - Team Member.jpg" alt="Airline Reservations">
-        <h3>Nicole Ndila</h3>
+        <img src="images/Mirry Team Mem.jpeg" alt="Airline Reservations">
+        <h3>Miranda Njoki</h3>
         <p>Air Hostess - A330-300 </p>
         </div>
 
