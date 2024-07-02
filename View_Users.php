@@ -58,8 +58,8 @@
                 <td>" . $row["username"] . "</td>
                 <td>" . $row["email"] . "</td>
                 <td>
-                  <a href='edit_user.php?id=" . $row["id"] . "'>Edit</a> / 
-                  <a href='delete_user.php?id=" . $row["id"] . "' onclick='return confirmDelete()'>Delete</a>
+                  <a href='Update_User.php?id=" . $row["id"] . "'>Update</a> / 
+                  <a href='Delete_User.php?id=" . $row["id"] . "' onclick='return confirmDelete()'>Delete</a>
                 </td>
               </tr>";
         }
