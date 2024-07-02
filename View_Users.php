@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Users</title>
-  <link rel="stylesheet" href=".css"> 
+  <title>View Users</title>
+  <link rel="stylesheet" href="View_Users Styles.css"> 
+  <link rel="icon" href="images/icons8-airplane-48.png">
 </head>
 
 <body>
@@ -17,7 +18,6 @@
       <li><a href="Experiences.php">Experiences</a></li>
       <li><a href="Contact Us.php">Contact Us</a></li>
       <li><a href="FAQ.php">FAQ</a></li>
-      <li><a href="view_users.php">View Users</a></li>
     </ul>
   </nav>
 
