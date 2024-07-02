@@ -70,8 +70,8 @@
         </div>
 
         <div class="team-member">
-        <img src="images/Trina Kinyua.jpg" alt="Airline Reservations">
-        <h3>Trina Kinyua</h3>
+        <img src="images/" alt="Airline Reservations">
+        <h3></h3>
         <p>Airline Reservations - FlyAfrica</p>
         </div>
     
