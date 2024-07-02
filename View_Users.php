@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>View Users</title>
-  <link rel="stylesheet" href="View_Users Styles.css"> 
+  <link rel="stylesheet" href="CRUD Styles.css"> 
   <link rel="icon" href="images/icons8-airplane-48.png">
 </head>
 
