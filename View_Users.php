@@ -38,6 +38,25 @@
         die("ERROR: Could not connect. " . mysqli_connect_error());
       }
 
+      // Update User in Database + Prepare & Exec Statements
+      if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_user'])) {
+        $user_id = intval($_POST['user_id']);
+        $username = $_POST['username'];
+        $email = $_POST['email'];
+
+        $update_sql = "UPDATE users SET username = ?, email = ? WHERE id = ?";
+        $update_stmt = $conn->prepare($update_sql);
+        $update_stmt->bind_param("ssi", $username, $email, $user_id);
+
+        if ($update_stmt->execute()) {
+          echo "<p style='color: green; font-weight: bold;'> User updated successfully.</p>";
+        } else {
+          echo "<p style = 'color: red; font-weight: bold;'> Error updating user: " . $conn->error . "</p>";
+        }
+
+        $update_stmt->close();
+      }
+
       // Deletion Prepare and Exexute Statements
       if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_id'])) {
         $delete_id = intval($_POST['delete_id']);
@@ -74,7 +93,7 @@
                 <td>" . $row["username"] . "</td>
                 <td>" . $row["email"] . "</td>
                 <td>
-                  <a href='edit_user.php?id=" . $row["id"] . "'>Update</a> / 
+                  <a href='Update_User.php?id=" . $row["id"] . "'>Update</a> / 
                   <form method='post' action='' style='display:inline;' onsubmit='return confirm(\"Are you sure you want to delete this user?\");'>
                     <input type='hidden' name='delete_id' value='" . $row["id"] . "'>
                     <button type='submit' style='background:none;border:none;color:#ff6600;text-decoration:underline;cursor:pointer;'>Delete</button>
