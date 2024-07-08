@@ -62,6 +62,9 @@
             $password = $_POST['password'];
             $email = $_POST['email'];
             
+            //Encrypts the Paswwords inputted
+            $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+
             // Performing insert query execution
             // Here, specify the columns explicitly
             $sql = "INSERT INTO users (username, password, email) VALUES ('$user_name', '$password', '$email')";

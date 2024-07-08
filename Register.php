@@ -55,8 +55,8 @@
         $email = $_POST['email'];
         
         // Performing insert query execution
-        // Here, specify the columns explicitly
         $sql = "INSERT INTO users (username, password, email) VALUES ('$user_name', '$password', '$email')";
+        $hashed_password = password_hash($password, PASSWORD_DEFAULT);
         
         if(mysqli_query($conn, $sql)){
             echo "<h3>Thank you for Registering
