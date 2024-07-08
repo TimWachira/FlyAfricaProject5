@@ -18,6 +18,7 @@
             <li><a href="Experiences.php">Experiences</a></li>
             <li><a href="Contact Us.php">Contact Us</a></li>
             <li><a href="faq.php">FAQ</a></li>
+            <li><a href="View_Users.php">FlyAfrica Users</a></li>
         </ul>
     </nav>
 
