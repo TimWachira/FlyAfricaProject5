@@ -1,5 +1,14 @@
-<?php 
-    include_once("Template/Header.php");
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlyAfrica - About Us</title>
+    <link rel="icon" href="images/icons8-airplane-48.png">
+    <link rel="stylesheet" href="CRUD Styles.css">
+</head>
+
+<?php
     include_once("Template/Nav.php");
     require("Template/DbConn.php");
     ?>
