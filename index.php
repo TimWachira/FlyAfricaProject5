@@ -10,7 +10,6 @@
 
 <?php
     include_once("Template/Nav.php");
-    require("Template/DbConn.php");
     ?>
 
     <!-- Home Page Content -->
