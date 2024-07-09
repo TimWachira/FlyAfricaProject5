@@ -1,26 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Edit User</title>
-  <link rel="stylesheet" href="CRUD Styles.css"> 
-  <link rel="icon" href="images/icons8-airplane-48.png">
-</head>
-
-<body>
-  <nav>
-    <ul>
-      <li><a href="index.php">Home</a></li>
-      <li><a href="About Us.php">About Us</a></li>
-      <li><a href="Destinations.php">Destinations</a></li>
-      <li><a href="SkyLoyalty.php">SkyLoyalty.php</a></li>
-      <li><a href="Experiences.php">Experiences</a></li>
-      <li><a href="Contact Us.php">Contact Us</a></li>
-      <li><a href="FAQ.php">FAQ</a></li>
-    </ul>
-  </nav>
-
+<?php 
+    include_once("Template/Header.php");
+    include_once("Template/Nav.php");
+    require("Template/DbConn.php");
+    ?>
+    
   <div class="container">
     <h2>Edit User</h2>
 
