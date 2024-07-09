@@ -1,9 +1,8 @@
 <?php
-// Database connection 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "flights";
+require("Template/DbConn.php");
+?>
+
+<?php
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 
